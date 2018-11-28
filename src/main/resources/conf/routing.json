@@ -1,0 +1,157 @@
+{
+  "routes" : {
+    "products_retrieve" : {
+      "name" : "products_retrieve",
+      "uri": "/products",
+      "method" : "GET",
+      "params" : [],
+      "entityClassName" : "org.test.itv.checkout.dto.Product",
+      "taskClassName" : "org.test.itv.checkout.dto.RetrieveTask",
+      "serviceClassName" : "org.test.itv.checkout.service.RetrieveOperation"
+    },
+    "products_retrieve_id" : {
+      "name" : "products_retrieve_id",
+      "uri": "/products/:id",
+      "method" : "GET",
+      "params" : [ "id" ],
+      "entityClassName" : "org.test.itv.checkout.dto.Product",
+      "taskClassName" : "org.test.itv.checkout.dto.RetrieveTask",
+      "serviceClassName" : "org.test.itv.checkout.service.RetrieveOperation"
+    },
+    "products_create" : {
+      "name" : "products_create",
+      "uri": "/products",
+      "method" : "POST",
+      "params" : [],
+      "entityClassName" : "org.test.itv.checkout.dto.Product",
+      "taskClassName" : "org.test.itv.checkout.dto.CreateTask",
+      "serviceClassName" : "org.test.itv.checkout.service.CreateOperation"
+    },
+    "products_update" : {
+      "name" : "products_update",
+      "uri": "/products/:id",
+      "method" : "PUT",
+      "params" : [ "id" ],
+      "entityClassName" : "org.test.itv.checkout.dto.Product",
+      "taskClassName" : "org.test.itv.checkout.dto.UpdateTask",
+      "serviceClassName" : "org.test.itv.checkout.service.UpdateOperation"
+    },
+    "products_delete" : {
+      "name" : "products_delete",
+      "uri": "/products/:id",
+      "method" : "DELETE",
+      "params" : [ "id" ],
+      "entityClassName" : "org.test.itv.checkout.dto.Product",
+      "taskClassName" : "org.test.itv.checkout.dto.DeleteTask",
+      "serviceClassName" : "org.test.itv.checkout.service.UpdateOperation"
+    },
+    "offers_retrieve" : {
+      "name" : "offers_retrieve",
+      "uri": "/offers",
+      "method" : "GET",
+      "params" : [],
+      "entityClassName" : "org.test.itv.checkout.dto.Offer",
+      "taskClassName" : "org.test.itv.checkout.dto.RetrieveTask",
+      "serviceClassName" : "org.test.itv.checkout.service.RetrieveOperation"
+    },
+    "offers_retrieve_id" : {
+      "name" : "offers_retrieve_id",
+      "uri": "/offers/:id",
+      "method" : "GET",
+      "params" : [ "id" ],
+      "entityClassName" : "org.test.itv.checkout.dto.Offer",
+      "taskClassName" : "org.test.itv.checkout.dto.RetrieveTask",
+      "serviceClassName" : "org.test.itv.checkout.service.RetrieveOperation"
+    },
+    "offers_create" : {
+      "name" : "offers_create",
+      "uri": "/offers",
+      "method" : "POST",
+      "params" : [],
+      "entityClassName" : "org.test.itv.checkout.dto.Offer",
+      "taskClassName" : "org.test.itv.checkout.dto.CreateTask",
+      "serviceClassName" : "org.test.itv.checkout.service.CreateOperation"
+    },
+    "offers_update" : {
+      "name" : "offers_update",
+      "uri": "/offers/:id",
+      "method" : "PUT",
+      "params" : [ "id" ],
+      "entityClassName" : "org.test.itv.checkout.dto.Offer",
+      "taskClassName" : "org.test.itv.checkout.dto.UpdateTask",
+      "serviceClassName" : "org.test.itv.checkout.service.UpdateOperation"
+    },
+    "offers_delete" : {
+      "name" : "offers_delete",
+      "uri": "/offers/:id",
+      "method" : "DELETE",
+      "params" : [ "id" ],
+      "entityClassName" : "org.test.itv.checkout.dto.Offer",
+      "taskClassName" : "org.test.itv.checkout.dto.DeleteTask",
+      "serviceClassName" : "org.test.itv.checkout.service.UpdateOperation"
+    },
+    "baskets_retrieve" : {
+      "name" : "baskets_retrieve",
+      "uri": "/baskets",
+      "method" : "GET",
+      "params" : [],
+      "entityClassName" : "org.test.itv.checkout.dto.Basket",
+      "taskClassName" : "org.test.itv.checkout.dto.RetrieveTask",
+      "serviceClassName" : "org.test.itv.checkout.service.RetrieveOperation"
+    },
+    "baskets_retrieve_id" : {
+      "name" : "baskets_retrieve_id",
+      "uri": "/baskets/:id",
+      "method" : "GET",
+      "params" : [ "id" ],
+      "entityClassName" : "org.test.itv.checkout.dto.Basket",
+      "taskClassName" : "org.test.itv.checkout.dto.RetrieveTask",
+      "serviceClassName" : "org.test.itv.checkout.service.RetrieveOperation"
+    },
+    "baskets_create" : {
+      "name" : "baskets_create",
+      "uri": "/baskets",
+      "method" : "POST",
+      "params" : [],
+      "entityClassName" : "org.test.itv.checkout.dto.Basket",
+      "taskClassName" : "org.test.itv.checkout.dto.CreateTask",
+      "serviceClassName" : "org.test.itv.checkout.service.CreateOperation"
+    },
+    "baskets_update" : {
+      "name" : "baskets_update",
+      "uri": "/baskets/:id",
+      "method" : "PUT",
+      "params" : [ "id" ],
+      "entityClassName" : "org.test.itv.checkout.dto.Basket",
+      "taskClassName" : "org.test.itv.checkout.dto.UpdateTask",
+      "serviceClassName" : "org.test.itv.checkout.service.BasketUpdateOperation"
+    },
+    "baskets_add" : {
+      "name" : "baskets_add",
+      "uri": "/baskets/:id/:productid",
+      "method" : "PUT",
+      "params" : [ "id", "productid" ],
+      "entityClassName" : "org.test.itv.checkout.dto.Basket",
+      "taskClassName" : "org.test.itv.checkout.dto.UpdateTask",
+      "serviceClassName" : "org.test.itv.checkout.service.BasketAddOperation"
+    },
+    "baskets_delete" : {
+      "name" : "baskets_delete",
+      "uri": "/baskets/:id",
+      "method" : "DELETE",
+      "params" : [ "id" ],
+      "entityClassName" : "org.test.itv.checkout.dto.Basket",
+      "taskClassName" : "org.test.itv.checkout.dto.DeleteTask",
+      "serviceClassName" : "org.test.itv.checkout.service.UpdateOperation"
+    },
+    "data_loading" : {
+      "name" : "data_loading",
+      "uri": "/loader/:entity",
+      "method" : "GET",
+      "params" : [ "entity" ],
+      "entityClassName" : "org.test.itv.checkout.dto.Entity",
+      "taskClassName" : "org.test.itv.checkout.dto.RetrieveTask",
+      "serviceClassName" : "org.test.itv.checkout.service.LoadServiceOperation"
+    }
+  }
+}

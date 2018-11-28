@@ -1,0 +1,5 @@
+[
+  { "id" : "1", "name": "Apples", "productId" : "A", "quantity" : 2, "offer" : 2.50 },
+  { "id" : "2", "name": "Pizzas", "productId" : "C", "quantity" : 2, "offer" : 8.00 },
+  { "id" : "3", "name": "Cheese", "productId" : "E", "quantity" : 3, "offer" : 4.50 }
+]

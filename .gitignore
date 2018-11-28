@@ -1,0 +1,5 @@
+/.project
+/.idea/
+/checkout-test.iml
+/dependency-reduced-pom.xml
+/target/

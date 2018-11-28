@@ -1,0 +1,8 @@
+{
+  "datasources" : {
+    "checkout" : {
+      "name" : "checkout",
+      "className" : "org.test.itv.checkout.datasource.MapDBDataSourceAdapter"
+    }
+  }
+}

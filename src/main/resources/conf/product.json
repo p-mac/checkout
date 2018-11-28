@@ -1,0 +1,7 @@
+[
+  { "id" : "A", "name": "Apple", "description" : "Royal Gala Apples", "price" : 1.50 },
+  { "id" : "B", "name": "IceCream", "description" : "6 Ice Cream box", "price" : 2.00 },
+  { "id" : "C", "name": "Pizza", "description" : "One Margherita Pizza", "price" : 4.50 },
+  { "id" : "D", "name": "White Wine", "description" : "Pinot Grigio White Wine", "price" : 5.50 },
+  { "id" : "E", "name": "Cheese slices", "description" : "Emmenthal Cheese sices", "price" : 1.80 }
+]

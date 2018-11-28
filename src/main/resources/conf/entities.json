@@ -1,0 +1,5 @@
+{
+  "Product" : "org.test.itv.checkout.dto.Product",
+  "Offer" : "org.test.itv.checkout.dto.Offer",
+  "Basket" : "org.test.itv.checkout.dto.Basket"
+}
